@@ -1,0 +1,12 @@
+@media (max-width:768px) {
+
+
+    ul li {
+        list-style-type: circle;
+        font-size: 40px;
+    }
+
+    .table tr td {
+        border: none
+    }
+}

@@ -1,0 +1,185 @@
+.background {
+    background-color: #26291e;
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    z-index: 10;
+}
+
+.header {
+    margin-top: 120px;
+    margin-left: 250px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Home {
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #294452;
+    border-radius: 10px;
+    padding: 50px 10px 10px 10px;
+    background-color: #294452;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.Experience {
+    margin-top: -20px;
+    margin-left: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #294452;
+    border-radius: 10px;
+    padding: 50px 10px 10px 10px;
+    background-color: #294452;
+    width: 1000px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.Testimonials {
+    margin-top: -20px;
+    margin-left: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #294452;
+    border-radius: 10px;
+    padding: 50px 10px 10px 10px;
+    background-color: #294452;
+    width: 1000px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.reachme {
+    margin-top: -20px;
+    margin-left: 150px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid #294452;
+    border-radius: 10px;
+    padding: 50px 10px 10px 10px;
+    background-color: #294452;
+    width: 1000px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.p {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 200px;
+    margin-right: 500px
+}
+
+.image {
+    height: 300px;
+    width: 300px;
+    border: 4px dotted;
+    border-radius: 150px;
+    margin-left: 800px;
+    margin-top: -210px;
+    margin-bottom: -110px
+}
+
+.button {
+    margin-left: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    border: 2px solid #545c3e;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #248a5b;
+}
+
+.hr {
+    margin-top: 150px;
+    width: 950px;
+    margin-bottom: -75px;
+}
+
+.pfooter {
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 190px;
+    margin-top: 45px
+}
+
+.googleh {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    border: 2px solid #71153a;
+    width: 125px;
+    padding: 15px;
+    padding-left: 20px;
+    border-radius: 10px;
+    margin-left: 180px;
+    background-color: #71153a
+}
+
+.youtubeh {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    border: 2px solid #294452;
+    width: 125px;
+    padding: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: -102px;
+    margin-left: 390px;
+    background-color: #294452
+}
+
+.whatsapph {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    border: 2px solid #576c28;
+    width: 150px;
+    padding: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: -102px;
+    margin-left: 600px;
+    background-color: #576c28;
+}
+
+.instagramh {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    border: 2px solid #6b1e1e;
+    width: 170px;
+    padding: 15px;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: -102px;
+    margin-left: 840px;
+    background-color: #6b1e1e;
+}
+
+.parent {
+    background-color: #bae83afc;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-radius: 50px;
+
+}
+
+
+.links,
+a {
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.links a:hover {
+    color: #f0f0f0;
+}
+
+.img-logo {
+    border-radius: 50px;
+}

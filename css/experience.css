@@ -1,0 +1,207 @@
+.background {
+    background-color: #ababe3;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Home {
+    margin-top: -20px;
+    margin-left: 280px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    border: 2px solid #4686a5;
+    border-radius: 10px;
+    padding: 50px 10px 10px 10px;
+    background-color: #4686a5;
+    width: 1000px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.Testimonials {
+    margin-top: -20px;
+    margin-left: 140px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    border: 2px solid #4686a5;
+    border-radius: 10px;
+    padding: 50px 10px 10px 10px;
+    background-color: #4686a5;
+    width: 1000px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.reachme {
+    margin-top: -20px;
+    margin-left: 120px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-large;
+    border: 2px solid #4686a5;
+    border-radius: 10px;
+    padding: 50px 10px 10px 10px;
+    background-color: #4686a5;
+    width: 1000px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.mainheading {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #248a5b;
+    font-size: xx-large;
+    font-weight: bold;
+    border: 2px solid #248a5b;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    padding-left: 60px;
+    margin-left: 450px;
+    margin-top: 60px;
+}
+
+.experiencep {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #b57777;
+    border-radius: 10px;
+    width: 650px;
+    padding: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    margin-left: 300px;
+    padding-right: 50px;
+}
+
+.googlep {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #a27f4d;
+    border-radius: 10px;
+    width: 490px;
+    padding: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    margin-top: -10px;
+    margin-left: 260px;
+    padding-right: 50px;
+}
+
+.google {
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 800px;
+    margin-top: -200px;
+    margin-bottom: -110px
+}
+
+.gh {
+    border: 2px solid #4516aa;
+    border-radius: 10px;
+    width: 80px;
+    padding-left: 15px;
+    background-color: #4516aa;
+    margin-left: 280px;
+    margin-top: 60px;
+
+}
+
+.youtube {
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 220px;
+    margin-top: -120px;
+    margin-bottom: -60px
+}
+
+.yh {
+    border: 2px solid #c93333;
+    border-radius: 10px;
+    width: 80px;
+    padding-left: 15px;
+    background-color: #c93333;
+    margin-left: 570px;
+    margin-top: 140px
+}
+
+.youtubep {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #b75f5a;
+    border-radius: 10px;
+    width: 500px;
+    padding: 5px;
+    padding-left: 300px;
+    text-decoration: none;
+    margin-top: -140px;
+    margin-left: 260px;
+    padding-right: 50px;
+}
+
+.wh {
+    border: 2px solid #4fa863;
+    border-radius: 10px;
+    width: 80px;
+    padding-left: 10px;
+    background-color: #4fa863;
+    margin-left: 280px;
+    margin-top: 130px;
+}
+
+.whatsappp {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #56a57a;
+    border-radius: 10px;
+    width: 500px;
+    padding: 5px;
+    padding-left: 10px;
+    text-decoration: none;
+    margin-top: -10px;
+    margin-left: 260px;
+    padding-right: 50px;
+}
+
+.whatsapp {
+    height: 270px;
+    width: 270px;
+    border-radius: 30px;
+    margin-left: 800px;
+    margin-top: -200px;
+    margin-bottom: -110px
+}
+
+.ih {
+    border: 2px solid #d9e715;
+    border-radius: 10px;
+    width: 100px;
+    padding-left: 15px;
+    background-color: #d9e715;
+    margin-left: 570px;
+    margin-top: -210px
+}
+
+.instagram {
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+    margin-left: 220px;
+    margin-top: 150px;
+    margin-bottom: -60px
+}
+
+.instagramp {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #af5454;
+    border-radius: 10px;
+    width: 500px;
+    padding: 5px;
+    padding-left: 300px;
+    text-decoration: none;
+    margin-top: -10px;
+    margin-left: 260px;
+    padding-right: 50px;
+}

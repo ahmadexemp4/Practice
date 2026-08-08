@@ -1,0 +1,125 @@
+body {
+    background-image: url(../images/Air.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.nameheading {
+    color: #0d6965;
+    border-bottom: 4px solid #0d6965;
+    border-width: 4px;
+    border-radius: 10px;
+    width: 450px;
+    margin-left: 400px;
+    font-size: 4rem;
+    padding-left: 40px
+}
+
+.heading {
+    color: #1d4ed8;
+    margin: 20px;
+    border-bottom: 4px solid #1d4ed8;
+    border-width: 4px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 220px;
+    margin-left: 480px;
+    background-color: blanchedalmond;
+    padding-left: 50px
+}
+
+.image {
+    border-radius: 150px;
+    border: 4px solid #008537;
+    border-width: 10px;
+    height: 300px;
+    width: 300px;
+    margin-left: 450px;
+}
+
+.p {
+    background-color: #e2ece9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 800px;
+    margin-left: 250px;
+    border-bottom: 4px solid #153b03;
+    border-left: 4px solid #153b03;
+    padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.experience {
+    background-color: #e2ece9;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+    margin-left: 380px;
+    border-bottom: 4px solid #153b03;
+    border-left: 4px solid #153b03;
+    padding-left: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.location {
+    background-color: #e2ece9;
+    border-bottom: 4px solid #3f2291;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    margin-left: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.table {
+    color: #008537;
+    border: 4px solid #1e536b;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #e2ece9;
+    margin-left: 425px;
+    padding: 15px
+}
+
+.list {
+    list-style-position: inside;
+    color: #153b03;
+    border: 4px solid #153b03;
+    width: 120px;
+    border-radius: 10px;
+    margin-left: 550px;
+    background-color: #a9b9c9;
+    padding-left: 25px;
+}
+
+.links {
+    color: #800020;
+    list-style-position: inside;
+    border: 4px solid #38101a;
+    border-radius: 10px;
+    width: 120px;
+    margin-left: 550px;
+    background-color: #d486b6;
+    padding-left: 25px
+}
+
+.textarea {
+    background-color: #a9b9c9;
+    border: 2px solid #0b8b6b;
+    border-radius: 5px;
+    width: 400px;
+    height: 100px;
+    margin-left: 400px
+}
+
+.headingt {
+    border: 3px solid #0d6965;
+    background-color: #a9b9c9;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 380px;
+    padding: 10px;
+    padding-left: 30px
+}

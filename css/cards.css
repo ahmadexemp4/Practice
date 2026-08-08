@@ -1,0 +1,51 @@
+.background {
+    background-color: #cbb0b0;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 2px solid #000;
+    text-align: center;
+    border-radius: 10px;
+    color: #000;
+    background-color: white;
+    width: 250px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.box svg {
+    min-height: 40px;
+    width: 40px;
+}
+
+.box h1,
+h2 {
+    font-size: 40px;
+}
+
+.box-button {
+    background-color: black;
+    padding: 20px 60px;
+    color: white;
+    font-size: 16px;
+    border-radius: 60px;
+}
+
+.box:hover {
+    background-color: #be3232;
+    border: 2px solid #be3232;
+    color: white;
+}
+
+.box.box:hover .box-button {
+    background-color: white;
+    color: #be3232;
+}

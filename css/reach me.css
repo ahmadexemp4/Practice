@@ -1,0 +1,95 @@
+.background {
+    background-color: #201b30;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.mainheading {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #248a5b;
+    font-size: xx-large;
+    font-weight: bold;
+    border: 2px solid #248a5b;
+    border-radius: 10px;
+    width: 190px;
+    padding: 10px;
+    padding-left: 35px;
+    margin-top: 40px;
+    margin-left: 540px;
+}
+
+.reachmep {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: #a4732f;
+    border-radius: 10px;
+    width: 650px;
+    padding: 5px;
+    padding-left: 80px;
+    margin-top: 20px;
+    margin-left: 330px;
+    padding-right: 50px;
+}
+
+.form {
+    list-style-position: top;
+    text-align: center;
+    color: aqua;
+    padding: 10px;
+
+}
+
+.nameform {
+    background-color: rgb(214, 186, 149);
+    margin-top: 5px;
+    margin-left: -3px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 7px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.phoneform {
+    background-color: rgb(214, 186, 149);
+    margin-top: -8px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -6px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.emailform {
+    background-color: rgb(214, 186, 149);
+    margin-top: -8px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -5px;
+    margin-bottom: 20px;
+    height: 35px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.textareaform {
+    background-color: rgb(214, 186, 149);
+    margin-top: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    height: 100px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.button {
+    margin-top: -10px;
+    height: 60px;
+    width: 245px;
+    margin-left: 70px;
+    background-color: #6343d8
+}

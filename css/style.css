@@ -1,0 +1,125 @@
+.background {
+    background-color: #b1b9ce;
+    color: #f8fafc;
+    text-align: center;
+    list-style-position: inside;
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* 
+.section {
+    background-color: #121212;
+} */
+
+.header {
+    /* background-color: #0f172a; */
+    color: #f8fafc;
+    accent-color: #38bdf8;
+    border: 3px solid #9dc402;
+}
+
+.education {
+    background-color: #1e293b;
+    color: #cbd5e1;
+    accent-color: #38bdf8;
+    border: 3px solid #0070c6;
+    border-width: 100%;
+}
+
+.experience {
+    background-color: #0f172a;
+    color: #cbd5e1;
+    accent-color: #818cf8
+}
+
+.skills {
+    background-color: #1e293b;
+    color: #cbd5e1;
+    accent-color: #34d399
+}
+
+.hobbies {
+    background-color: #0f172a;
+    color: #cbd5e1;
+    accent-color: #34d399
+}
+
+.achievements {
+    background-color: #1c1917;
+    color: #e2e8f0;
+    accent-color: #fbbf24
+}
+
+.languages {
+    background-color: #1e293b;
+    color: #cbd5e1;
+    accent-color: #a7f3d0
+}
+
+.references {
+    background-color: #1e293b;
+    color: #cbd5e1;
+    accent-color: #f472b6
+}
+
+.portfolio {
+    background-color: #0f172a;
+    color: #cbd5e1;
+    accent-color: #60a5fa
+}
+
+.certifications {
+    background-color: #062016;
+    color: #e2e8f0;
+    accent-color: #34d399
+}
+
+.volunteer {
+    background-color: #0f172a;
+    color: #cbd5e1;
+    accent-color: #4ade80
+}
+
+.contact {
+    background-color: #020617;
+    color: #ffffff;
+    accent-color: #38bdf8
+}
+
+.social {
+    background-color: #022c22;
+    color: #e2e8f0;
+    accent-color: #2dd4bf
+}
+
+.future {
+    background-color: #13122c;
+    color: #e2e8f0;
+    accent-color: #a855f7
+}
+
+.personal {
+    background-color: #141332;
+    color: #cbd5e1;
+    accent-color: #a855f7
+}
+
+.testimonials {
+    background-color: #1e293b;
+    color: #cbd5e1;
+    accent-color: #f472b6
+}
+
+.additional {
+    background-color: #000000;
+    color: #94a3b8;
+    accent-color: #64748b
+}
+
+.footer {
+    background-color: #000000;
+    color: #94a3b8;
+    accent-color: #64748b
+}

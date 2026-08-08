@@ -1,0 +1,71 @@
+.background {
+    background-color: #8b7c7c;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.border {
+    border: 2px solid #2e2c20;
+    background-color: #837c56;
+    border-radius: 10px;
+    /* position: relative; */
+    width: 350px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valorant {
+    /* position: absolute; */
+    text-align: center;
+    border: 2px solid #2e2c20;
+    border-radius: 10px;
+    color: #dbcdcd;
+    background-color: #342b2b;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.valorant button {
+    width: 200px;
+    height: 30px;
+    border: #342b2b;
+    border-radius: 10px;
+}
+
+.valorant button:hover {
+    border: 2px solid #342b2b;
+}
+
+.valorant a {
+    text-decoration: none;
+    color: #100a0a;
+    font-size: 16px;
+    cursor: pointer;
+    width: 190px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.item-fix {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
