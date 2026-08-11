@@ -87,6 +87,10 @@
     background-color: #248a5b;
 }
 
+.button:hover {
+    background-color: #26291e;
+}
+
 .hr {
     margin-top: 150px;
     width: 950px;
@@ -111,6 +115,10 @@
     background-color: #71153a
 }
 
+.googleh:hover {
+    background-color: #e46e6e;
+}
+
 .youtubeh {
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
@@ -122,6 +130,10 @@
     margin-top: -102px;
     margin-left: 390px;
     background-color: #294452
+}
+
+.youtubeh:hover {
+    background-color: #5c9bba;
 }
 
 .whatsapph {
@@ -137,6 +149,10 @@
     background-color: #576c28;
 }
 
+.whatsapph:hover {
+    background-color: #b9cd83
+}
+
 .instagramh {
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
@@ -148,6 +164,10 @@
     margin-top: -102px;
     margin-left: 840px;
     background-color: #6b1e1e;
+}
+
+.instagramh:hover {
+    background-color: #c95959
 }
 
 .parent {
@@ -163,7 +183,6 @@
     border-radius: 50px;
 
 }
-
 
 .links,
 a {
