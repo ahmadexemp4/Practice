@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7LABS — Software Engineering Lab</title>
+    <meta name="description"
+        content="7LABS is a systems-first software studio. We design, build and operate production-grade platforms.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/7LABS.css">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#home">
+                <span class="brand-mark">[07]</span><span class="brand-word">LABS</span>
+            </a>
+            <button class="navbar-toggler navbar-toggler-custom" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="#work">Work</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="#process">Process</a></li>
+                    <li class="nav-item"><a class="nav-link nav-link-custom" href="#contact">Contact</a></li>
+                    <li class="nav-item ms-lg-3 mt-3 mt-lg-0">
+                        <a href="#contact" class="btn btn-outline-signal">Get in touch</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-glow"></div>
+        <div class="container">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-6">
+                    <p class="eyebrow"><span class="cursor-dot"></span>7LABS // SOFTWARE RESEARCH LAB</p>
+                    <h1 class="hero-title">We engineer<br>what's next<span class="blink-cursor">_</span></h1>
+                    <p class="hero-sub">A systems-first software studio. We design, build and operate production-grade
+                        platforms for teams who can't afford downtime.</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-signal">Start a project</a>
+                        <a href="#work" class="btn btn-ghost">View our work <i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="terminal-window">
+                        <div class="terminal-bar">
+                            <span class="dot dot-r"></span><span class="dot dot-y"></span><span
+                                class="dot dot-g"></span>
+                            <span class="terminal-title">session — 7labs/deploy</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p><span class="prompt">$</span> 7labs build --target production</p>
+                            <p class="out">compiling services......... <span class="ok">ok</span></p>
+                            <p class="out">running test suite......... <span class="ok">412 passed</span></p>
+                            <p class="out">provisioning infra......... <span class="ok">ok</span></p>
+                            <p><span class="prompt">$</span> 7labs deploy --env prod</p>
+                            <p class="out">shipped in 42s <span class="ok">✓</span></p>
+                            <p><span class="prompt">$</span> <span class="blink-cursor">_</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TICKER ===== -->
+    <div class="ticker-strip">
+        <div class="ticker-track">
+            <span>TYPESCRIPT</span><span class="sep">·</span><span>GO</span><span
+                class="sep">·</span><span>PYTHON</span><span class="sep">·</span><span>RUST</span><span
+                class="sep">·</span><span>REACT</span><span class="sep">·</span><span>KUBERNETES</span><span
+                class="sep">·</span><span>AWS</span><span class="sep">·</span><span>POSTGRES</span><span
+                class="sep">·</span><span>GRAPHQL</span><span class="sep">·</span><span>TERRAFORM</span><span
+                class="sep">·</span>
+            <span>TYPESCRIPT</span><span class="sep">·</span><span>GO</span><span
+                class="sep">·</span><span>PYTHON</span><span class="sep">·</span><span>RUST</span><span
+                class="sep">·</span><span>REACT</span><span class="sep">·</span><span>KUBERNETES</span><span
+                class="sep">·</span><span>AWS</span><span class="sep">·</span><span>POSTGRES</span><span
+                class="sep">·</span><span>GRAPHQL</span><span class="sep">·</span><span>TERRAFORM</span><span
+                class="sep">·</span>
+        </div>
+    </div>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="section" id="services">
+        <div class="container">
+            <p class="eyebrow">#7L-00 — WHAT WE BUILD</p>
+            <h2 class="section-title">Full-stack engineering,<br>end to end.</h2>
+            <div class="row g-4 mt-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="lab-card">
+                        <div class="lab-card-bar"><span class="dot-sm"></span><span class="dot-sm"></span><span
+                                class="dot-sm"></span><span class="lab-file">7L-01.service</span></div>
+                        <div class="lab-card-body">
+                            <i class="bi bi-code-slash lab-icon"></i>
+                            <h3>Product Engineering</h3>
+                            <p>Web and mobile platforms built for scale, from first commit to public launch.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="lab-card">
+                        <div class="lab-card-bar"><span class="dot-sm"></span><span class="dot-sm"></span><span
+                                class="dot-sm"></span><span class="lab-file">7L-02.service</span></div>
+                        <div class="lab-card-body">
+                            <i class="bi bi-cloud-arrow-up lab-icon"></i>
+                            <h3>Cloud &amp; DevOps</h3>
+                            <p>Infrastructure, CI/CD and observability so releases ship without fear.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="lab-card">
+                        <div class="lab-card-bar"><span class="dot-sm"></span><span class="dot-sm"></span><span
+                                class="dot-sm"></span><span class="lab-file">7L-03.service</span></div>
+                        <div class="lab-card-body">
+                            <i class="bi bi-cpu lab-icon"></i>
+                            <h3>AI &amp; Data Systems</h3>
+                            <p>Applied ML, data pipelines and intelligent features grounded in real usage.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="lab-card">
+                        <div class="lab-card-bar"><span class="dot-sm"></span><span class="dot-sm"></span><span
+                                class="dot-sm"></span><span class="lab-file">7L-04.service</span></div>
+                        <div class="lab-card-body">
+                            <i class="bi bi-diagram-3 lab-icon"></i>
+                            <h3>Systems Consulting</h3>
+                            <p>Architecture reviews, audits and embedded teams for critical systems.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== STATS ===== -->
+    <section class="section section-alt">
+        <div class="container">
+            <div class="row g-4 text-center text-md-start">
+                <div class="col-6 col-md-3">
+                    <div class="stat-num">7+</div>
+                    <div class="stat-label">Years in production</div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-num">120+</div>
+                    <div class="stat-label">Systems shipped</div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-num">40+</div>
+                    <div class="stat-label">Engineers &amp; architects</div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="stat-num">99.9%</div>
+                    <div class="stat-label">Uptime SLA</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section class="section" id="process">
+        <div class="container">
+            <p class="eyebrow">#7L-00 — HOW WE WORK</p>
+            <h2 class="section-title">A pipeline, not a black box.</h2>
+            <p class="section-lead">Every engagement moves through the same stages — so you always know what's shipping,
+                and when.</p>
+            <div class="pipeline">
+                <div class="pipeline-stage">
+                    <h4>PLAN</h4>
+                    <p>Discovery, architecture and a scoped roadmap before a line of code ships.</p>
+                </div>
+                <div class="pipeline-stage">
+                    <h4>BUILD</h4>
+                    <p>Small, senior teams write and review every line that reaches production.</p>
+                </div>
+                <div class="pipeline-stage">
+                    <h4>TEST</h4>
+                    <p>Automated coverage plus adversarial QA on every release candidate.</p>
+                </div>
+                <div class="pipeline-stage">
+                    <h4>DEPLOY</h4>
+                    <p>Progressive rollouts with automated rollback baked in from day one.</p>
+                </div>
+                <div class="pipeline-stage">
+                    <h4>MONITOR</h4>
+                    <p>Real-time observability and an on-call team that actually answers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== WORK ===== -->
+    <section class="section section-alt" id="work">
+        <div class="container">
+            <p class="eyebrow">#7L-00 — SELECTED WORK</p>
+            <h2 class="section-title">Systems we've shipped.</h2>
+            <div class="row g-4 mt-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="project-card">
+                        <div class="project-thumb">7L / LEDGER</div>
+                        <div class="project-body">
+                            <h3>Ledger</h3>
+                            <p>Real-time payments infrastructure for a fintech scale-up.</p>
+                            <span class="tech-chip">Go</span><span class="tech-chip">Postgres</span><span
+                                class="tech-chip">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="project-card">
+                        <div class="project-thumb">7L / NORTHWIND</div>
+                        <div class="project-body">
+                            <h3>Northwind OS</h3>
+                            <p>Internal operating system for a global logistics team.</p>
+                            <span class="tech-chip">React</span><span class="tech-chip">TypeScript</span><span
+                                class="tech-chip">GraphQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="project-card">
+                        <div class="project-thumb">7L / PULSE</div>
+                        <div class="project-body">
+                            <h3>Pulse</h3>
+                            <p>Predictive maintenance ML pipeline for manufacturing lines.</p>
+                            <span class="tech-chip">Python</span><span class="tech-chip">PyTorch</span><span
+                                class="tech-chip">AWS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="project-card">
+                        <div class="project-thumb">7L / ATLAS</div>
+                        <div class="project-body">
+                            <h3>Atlas</h3>
+                            <p>Multi-tenant SaaS platform rebuild, zero downtime migration.</p>
+                            <span class="tech-chip">Node.js</span><span class="tech-chip">Terraform</span><span
+                                class="tech-chip">AWS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== QUOTE ===== -->
+    <section class="quote-section">
+        <div class="container">
+            <p class="quote-text">// "7LABS didn't just write our code — they rebuilt how our whole team ships."</p>
+            <p class="quote-attr">— VP OF ENGINEERING, FINTECH CLIENT</p>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-5">
+                    <p class="eyebrow">#7L-00 — GET IN TOUCH</p>
+                    <h2 class="section-title">Let's build<br>what's next.</h2>
+                    <p class="section-lead">Tell us what you're building. A senior engineer replies within one business
+                        day — not a sales queue.</p>
+                    <ul class="contact-list">
+                        <li><i class="bi bi-envelope"></i> hello@7labs.dev</li>
+                        <li><i class="bi bi-geo-alt"></i> Remote-first · engineers worldwide</li>
+                        <li><i class="bi bi-clock"></i> Replies within 1 business day</li>
+                    </ul>
+                    <div class="social-row">
+                        <a href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" aria-label="X"><i class="bi bi-twitter-x"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="terminal-form">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label-mono" for="name">name</label>
+                                <input type="text" class="form-control form-control-custom" id="name"
+                                    placeholder="Ada Lovelace">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label-mono" for="email">email</label>
+                                <input type="email" class="form-control form-control-custom" id="email"
+                                    placeholder="ada@company.com">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label-mono" for="project">project_type</label>
+                                <select class="form-select form-control-custom" id="project">
+                                    <option>Product Engineering</option>
+                                    <option>Cloud &amp; DevOps</option>
+                                    <option>AI &amp; Data Systems</option>
+                                    <option>Systems Consulting</option>
+                                </select>
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label-mono" for="message">message</label>
+                                <textarea class="form-control form-control-custom" id="message" rows="4"
+                                    placeholder="Tell us what you're building..."></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button type="button" class="btn btn-signal w-100 w-md-auto">$ send_message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <a class="navbar-brand d-flex align-items-center" href="#home">
+                        <span class="brand-mark">[07]</span><span class="brand-word">LABS</span>
+                    </a>
+                    <p class="footer-tagline">A systems-first software studio engineering what's next, one production
+                        release at a time.</p>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <div class="footer-heading">Company</div>
+                    <ul class="footer-links">
+                        <li><a href="#home">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <div class="footer-heading">Work</div>
+                    <ul class="footer-links">
+                        <li><a href="#work">Case studies</a></li>
+                        <li><a href="#process">Our process</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <div class="footer-heading">Connect</div>
+                    <ul class="footer-links">
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <div class="footer-heading">Contact</div>
+                    <ul class="footer-links">
+                        <li><a href="mailto:hello@7labs.dev">hello@7labs.dev</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>© <span id="year"></span> 7LABS. All rights reserved.</span>
+                <span>BUILD #7L-2026.08</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var nav = document.getElementById('mainNav');
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 20) nav.classList.add('is-scrolled');
+            else nav.classList.remove('is-scrolled');
+        });
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
