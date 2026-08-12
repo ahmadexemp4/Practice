@@ -183,7 +183,7 @@ a {
 }
 
 .navbar-toggler-custom:focus {
-    box-shadow: 0 0 0 3px rgba(232, 41, 27, .25);
+    box-shadow: 2 2 2 3px #e8291b40;
 }
 
 /* ---------- Buttons ---------- */
