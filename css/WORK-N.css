@@ -5,7 +5,6 @@
     font-family: Arial, sans-serif;
 }
 
-/* Header */
 header {
     display: flex;
     justify-content: space-between;
@@ -15,7 +14,9 @@ header {
 }
 
 .logo img {
-    height: 40px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 50px;
 }
 
 nav a {
@@ -26,13 +27,11 @@ nav a {
     font-weight: bold;
 }
 
-nav a.active {
-    color: #b05828;
-    border-bottom: 2px solid #b05828;
-    padding-bottom: 5px;
+a:hover {
+    color: rgb(189, 118, 18);
+    text-decoration: underline;
 }
 
-/* Hero Section */
 .hero {
     background: linear-gradient(rgba(211, 107, 24, 0.85), rgba(211, 107, 24, 0.85)),
         url('people-grid-bg.jpg') center/cover no-repeat;
@@ -51,6 +50,8 @@ nav a.active {
     font-size: 20px;
     letter-spacing: 1px;
     margin-bottom: 20px;
+    color: black;
+    font-weight: bold;
 }
 
 .hero p {
@@ -66,12 +67,10 @@ nav a.active {
     padding: 12px 30px;
     border-radius: 25px;
     text-decoration: none;
-    font-weight: bold;
     font-size: 13px;
     display: inline-block;
 }
 
-/* Features Section */
 .features {
     padding: 60px 40px;
     text-align: center;
@@ -79,9 +78,8 @@ nav a.active {
 }
 
 .features-header h2 {
-    font-weight: normal;
-    color: #333;
     font-size: 26px;
+    margin-left: 35px;
 }
 
 .features-header span {
@@ -91,7 +89,6 @@ nav a.active {
 .divider {
     width: 60px;
     height: 2px;
-    background-color: #a85832;
     margin: 15px auto 50px auto;
 }
 
@@ -106,19 +103,6 @@ nav a.active {
 .feature-card {
     flex: 1;
     text-align: center;
-}
-
-.icon-circle {
-    width: 70px;
-    height: 70px;
-    background-color: #d97724;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 20px auto;
-    color: white;
-    font-size: 28px;
 }
 
 .feature-card h3 {
@@ -143,4 +127,17 @@ nav a.active {
     text-align: center;
     color: white;
     padding: 100px 20px;
+}
+
+.icon-circle {
+    width: 70px;
+    height: 70px;
+    background-color: #d97724;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+    color: white;
+    font-size: 28px;
 }
