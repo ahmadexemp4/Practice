@@ -1,0 +1,185 @@
+.row-hero {
+    padding-top: 100px
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
+header {
+    background-color: #111111;
+}
+
+span1 {
+    color: yellow;
+}
+
+.linkss {
+    justify-content: space-evenly;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.linkss a:hover {
+    color: orange !important;
+    text-decoration: underline;
+}
+
+.button {
+    border: 1px solid orange;
+    background-color: orange;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+}
+
+.button:hover {
+    background-color: #7a5818;
+    border: #7a5818;
+    transition: 0.3s ease;
+}
+
+.hero {
+    background-image: url(../Media/images/boy.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+.hero p {
+    color: yellow;
+}
+
+.hero h1 {
+    color: aliceblue;
+}
+
+.button2 {
+    border: 1px solid orange;
+    background-color: orange;
+    font-weight: bold;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+}
+
+.button2:hover {
+    background-color: #7a5818;
+    border: #7a5818;
+    transition: 0.3s ease;
+}
+
+.button3 {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 0, 0);
+    font-weight: bold;
+    border-radius: 10px;
+    height: 50px;
+    width: 140px;
+    color: aliceblue;
+}
+
+.button3:hover {
+    background-color: rgba(182, 182, 27, 0.591);
+    border: #9a9a20;
+    transition: 0.3s ease;
+}
+
+p3 {
+    color: aliceblue;
+}
+
+h1 {
+    font: size 10px;
+    ;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 70px;
+    margin-top: 15px;
+}
+
+.button,
+.button2,
+.button3,
+.linkss a {
+    transition: 0.3s ease;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features-p {
+    color: rgb(255, 213, 0);
+    padding-top: 20px;
+    font-weight: bold
+}
+
+.cards {
+    border: 2px solid #1111112e;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
+
+.cards:hover {
+    background-color: #1111112e;
+    border: 1px solid #1111112e;
+    transition: 0.3s ease;
+}
+
+.cards {
+    transition: 0.3s ease;
+}
+
+.margin {
+    margin-left: 8px;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.text {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.image {
+    border-radius: 10px;
+    height: 300px;
+    width: auto;
+}
+
+footer {
+    border: 2px solid #1111112e;
+    border-radius: 10px;
+    background-color: #1111112e;
+}
+
+.a-1 {
+    border-right: 2px solid rgba(0, 0, 0, 0.29);
+    padding-right: 20px;
+}

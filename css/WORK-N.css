@@ -32,9 +32,15 @@ a:hover {
     text-decoration: underline;
 }
 
+.bg-image {
+    background-image: url(../Media/images/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .hero {
-    background: linear-gradient(rgba(211, 107, 24, 0.85), rgba(211, 107, 24, 0.85)),
-        url('people-grid-bg.jpg') center/cover no-repeat;
+    background: #d36c18cf;
     text-align: center;
     color: white;
     padding: 100px 20px;
@@ -118,16 +124,6 @@ a:hover {
     line-height: 1.6;
 }
 
-.hero {
-    background: linear-gradient(rgba(211, 107, 24, 0.85), rgba(211, 107, 24, 0.85)),
-        url('_0');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    text-align: center;
-    color: white;
-    padding: 100px 20px;
-}
 
 .icon-circle {
     width: 70px;
@@ -140,4 +136,9 @@ a:hover {
     margin: 0 auto 20px auto;
     color: white;
     font-size: 28px;
+}
+
+.red-footer {
+    background-color: red;
+
 }
