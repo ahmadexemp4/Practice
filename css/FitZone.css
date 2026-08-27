@@ -11,11 +11,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%
+    width: 100%;
+    position: absolute;
 }
 
 header {
-    background-color: #111111;
+    background-color: #11111163;
+    position: relative;
 }
 
 span1 {
@@ -139,8 +141,7 @@ h1 {
     border: 2px solid #1111112e;
     border-radius: 10px;
     text-align: center;
-
-
+    padding: 20px;
 }
 
 .cards:hover {
@@ -155,15 +156,17 @@ h1 {
 
 .margin {
     margin-left: 8px;
+    padding-right: 30px;
+    border-right: 2px solid rgba(0, 0, 0, 0.251);
 }
 
 .heading {
     font-weight: 700;
-    font-size: 16px;
+    font-size: 30px;
 }
 
 .text {
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 600;
 }
 
@@ -182,4 +185,28 @@ footer {
 .a-1 {
     border-right: 2px solid rgba(0, 0, 0, 0.29);
     padding-right: 20px;
+}
+
+.menu:hover {
+    color: #9a9a20
+}
+
+.menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .margin {
+        border-right: none;
+    }
+}
+
+@media(max-width: 992px) {
+    .linkss {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
 }
