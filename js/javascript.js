@@ -1,8 +1,38 @@
-var a = 10, b = 5
-console.log("ADD=", a + b)
+var i = 1;
 
-console.log("SUBTRACT=", a-b)
+// while (i <= 5) {
+//     var s = 1;
+//     var pattern = "";
 
-console.log("DIVIDE=", a/b)
+//     while (s <= i) {
+//         pattern += "*";
+//         s++;
+//     }
 
-console.log("MULTIPLY=", a*b)
+//     console.log(pattern);
+//     i++;
+// }
+// do {
+//     var s = 1;
+//     var pattern = "";
+
+//     while (s <= i) {
+//         pattern += "*";
+//         s++;
+//     }
+
+//     console.log(pattern);
+//     i++;
+// } while (i <= 5);
+// var i = 1;
+// for (i; i <= 5; i++) {
+//     console.log("*".repeat(i));  
+// }
+function printPattern(n) {
+    for (var i = 1; i <= n; i++) {
+        console.log("*".repeat(i));
+    }   }
+
+printPattern(15);
+printPattern(25);
+printPattern(215);
