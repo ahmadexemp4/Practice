@@ -10,12 +10,27 @@
             background-color: rgb(46, 38, 38);
             color: antiquewhite;
         }
+
+        /* .text {
+            display: flex
+        } */
     </style>
 </head>
 
 <body>
     <h1>CALCULATOR</h1>
 
+    <button id="btn">Click Me</button>
+    <p>This is paragraph</p>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#btn").click(function () {
+                $("p").toggle();
+
+            });
+        });
+    </script>
 
 
     <script src="js/javascript.js"></script>
